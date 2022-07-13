@@ -69,7 +69,9 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <meta name="facebook-domain-verification" content="2s6druc7z3omgxefn42i2phlw5i9z9" />
+    </Helmet>
   )
 }
 
